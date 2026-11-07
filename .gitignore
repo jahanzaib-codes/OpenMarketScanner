@@ -1,0 +1,38 @@
+# Environment variables and secrets
+.env
+*.env
+*.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+*.db
+data/cache/
+
+# Test suites (Strict: Do not push tests to GitHub)
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
