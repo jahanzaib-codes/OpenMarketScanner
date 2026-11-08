@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  openmarketscanner:
+    build: .
+    container_name: openmarketscanner-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - DEFAULT_DATA_PROVIDER=simulator
+      - UNIVERSE_SIZE=5000
+    env_file:
+      - .env.example

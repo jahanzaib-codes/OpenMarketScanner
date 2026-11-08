@@ -30,3 +30,4 @@ def calculate_momentum_score(
 
     raw_score = price_score + vol_score + breakout_bonus + float_bonus
     return round(min(100.0, raw_score), 1)
+

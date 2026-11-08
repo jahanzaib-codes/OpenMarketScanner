@@ -39,3 +39,4 @@ def evaluate_gap_quality(gap_pct: float, rvol: float, float_shares: float) -> st
         return "TRADABLE_GAP"
     else:
         return "CHOP_OR_FADE"
+

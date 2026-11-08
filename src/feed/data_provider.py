@@ -168,3 +168,4 @@ def get_data_provider(provider_type: str = "simulator", api_key: str = "") -> Ba
     if pt == "polygon":
         return PolygonDataProvider(api_key=api_key)
     return SimulatorDataProvider()
+

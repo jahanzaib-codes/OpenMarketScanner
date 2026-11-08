@@ -120,3 +120,4 @@ async def websocket_stream(websocket: WebSocket):
         logger.info("WebSocket client disconnected.")
     except Exception as e:
         logger.warning(f"WebSocket session closed: {e}")
+

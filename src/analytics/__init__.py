@@ -11,3 +11,4 @@ __all__ = [
     "detect_breakout",
     "calculate_momentum_score"
 ]
+

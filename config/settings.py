@@ -44,3 +44,4 @@ class ScannerSettings(BaseModel):
 
 
 settings = ScannerSettings()
+
