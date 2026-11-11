@@ -12,3 +12,4 @@ services:
       - UNIVERSE_SIZE=5000
     env_file:
       - .env.example
+
